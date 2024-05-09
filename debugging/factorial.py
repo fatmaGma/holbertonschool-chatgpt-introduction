@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 import math
 """
@@ -6,7 +7,7 @@ factorial - calculate the factorial of a given number
 Return: integer the factorial of the input number
 """
 
-def factorial(n):
+def factorial (n):
     if n < 0:
         raise ValueError("Factoril is not defined for negative numbers")
     elif n == 0:
